@@ -1,0 +1,143 @@
+1.what is PHP?    
+    it stands for hypertext preprocessor
+    it is an open source server side scripting language
+    it is an interpreter language which is no need for compailation
+
+2.difference between static and dynamic webside?
+    ->in static webside content of the webpage cannot be changed at a runtime
+        but the dynamic webside can be changed on content of the webpage 
+    ->In s/w has no interaction with database
+        but the d/w can interaction with database
+    -in s/w no features of content management system(cms)
+        but the d/w can have features od cms
+    ->in s/w can used for developing the webside like HTML,CSS,Jscript
+        but the d/w is a server side language such as PHP ,Node.js are used
+
+3.Content management system(CMS)?
+    ->Its used to creating and managing different digital or online content 
+        (eg)JOOMLA , DRUPAL ,wordpress ,TYPO3
+            two types of CMS:
+                ->enterprise content management(ECM)
+                ->web content management(WCM)
+
+4.frameworks in php?
+    -> laravel , code igniter ,sympfony ,cake php ,Zend framework , phalcon , fuel php
+
+6.how to declare constants in php?
+    Constants are like variables except that once they are defined they cannot be changed or undefined.
+    -> CONSTANTS[name] TYPE[(col1,col2)]
+    ->define(name, value, case-insensitive)
+
+7.difference between ECHO and PRINT?
+    ->echo can output one or more string 
+        but print can only output one string and always return one
+    ->echo is more faster than print because it doesn't any value
+
+9.different loops in php?
+    -> for , while , do-while , foreach ,break & continue
+
+10. what is count method?
+    -> count all elements in an array or something in an objects
+        eg. count(array,mode)0,1,2...
+
+11.difference between isset and empty?
+    ->in isset can return true if the variable exists and has a value other than null
+        but in empty can checks to see if a variable is empty its interpreted as an empty string
+    eg.isset($var)&& ! empty($var)
+
+12.array in PHP?
+    ->array is a special type of variable thar stores multiple values in a single variable
+        ->indexed array( array(value1, value2)   )
+        ->associative array (  array(key=>val,key=>val)    )
+        ->multidimentional array (  array(array(val1,val2) , array(val3,val4))   )
+
+13.array functions in php?
+    array()	    Creates an array
+    array_count_values()	Counts all the values of an array
+    array_keys()	Returns all the keys of an array
+    array_pop()	Deletes the last element of an array
+    array_push()	Inserts one or more elements to the end of an array
+    array_reduce()	Returns an array as a string, using a user-defined function
+    array_replace()	Replaces the values of the first array with the values from following arrays
+    array_unique()	Removes duplicate values from an array
+    count()	Returns the number of elements in an array
+    unset() delete a single element
+    array_splice()  delete multiple elements
+
+14. lenght of string?
+    ->strlen() function is a build in function in php which returns a lenght of a given string
+        eg.strlen($var or string)
+
+15.string functions?
+    explode()	Breaks a string into an array  $str="A E I O U";$arr = explode(",", $str);
+                Array( [0] => A [1] => E [2] => I [3] => O [4] => U );$arr = Array ("A","E","I","O","U");
+    implode()	Returns a string from the elements of an array  
+                (array to string eg.($var=implode(" ,./-", $arr);)
+    md5()	Calculates the MD5 hash of a string
+    print()	Outputs one or more strings
+    printf()	Outputs a formatted string
+    str_repeat()	Repeats a string a specified number of times
+    str_replace()	Replaces some characters in a string (case-sensitive)
+    strlen()	Returns the length of a string
+    strstr()	Finds the first occurrence of a string inside another string (case-sensitive)
+    strtolower()	Converts a string to lowercase letters
+    strtoupper()	Converts a string to uppercase letters
+    trim()	Removes whitespace or other characters from both sides of a string
+
+17.difference between include and require?
+    ->both are used to include files
+        but require will exit with fatal errors if it fails to include a files
+    ->where as include will move with the execution even if it fails to include the files
+    INCLUDE="The Include(name.php) function is used to put data of one PHP file into another PHP file.
+     If errors occur then the include(name.php) function produces a warning but does not stop the execution of the script
+      i.e. the script will continue to execute."
+    REQUIRE=The Require() function is also used to put data of one PHP file to another PHP file.
+       If there are any errors then the require() function produces a warning and a fatal error and stops the execution of the script
+       i.e. the script will continue to execute.
+
+18. what is SESSIONS?
+    ->session is used to store data on a server rather than the computer of the user.
+     Session identifiers or SID is a unique number 
+    which is used to identify every user in a session based environment
+
+19. SESSION_START & SESSION_DESTROY?
+    ->SESSION_START: function is used to begin a new session it also create a new session id for the user
+        eg. <?php session_start(); ?>
+    ->SESSION_DESTROY: function is used to completely destroy a session. the session_destroy function doesn't require any arguments
+        eg.<?php session_start(); session_destroy(); ?>
+
+20.type conversion or type casting?
+    
+    A type casting is basically a conversion from one type to another
+    ->they are two types 
+        =>implicit type conversion:
+            if a compiler convcerts one data type to another type of data automatically
+        =>explicit type conversion
+            when a data is one type is converted explicit to another type with the help of predefined function
+            -> data loss
+            ->its done by forcefully to convert datatype(int, float,char,array,bool,string,object,null,resources)
+            ->eg. int to sort
+    <?php
+        $a =1; $b=2; $i=a+b; echo $i;                                 $a=5 $b=5;
+        var_dump($i); //$i is integer
+        $i = 2.3;                                           $i=(int)($a/$b); echo $i;
+        var_dump($i); //$i is float
+        $i = "php type casting";
+        var_dump($i); //$i is string
+    ?>
+
+21. ERRORS in php?
+    ->NOTICES : non critical error , not displayed to the users
+    ->WARNING : most serious error , it can be displayed by the user
+    ->FATAL : most critical error , it may due to immidiate terminate of script
+
+What is JSON?
+    JSON stands for JavaScript Object Notation,
+    it is used to transform data between server and the client just like an XML
+    JSON_encode and _decode
+
+MKDIR used to create a folder using cmd prompt
+
+AJAX = Asynchronous JavaScript and XML.
+
+AJAX is a technique for creating fast and dynamic web pages.

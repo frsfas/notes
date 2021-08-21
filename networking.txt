@@ -1,0 +1,180 @@
+1) What is a Network?
+     Network is defined as a set of devices connected to each other using a physical transmission medium.
+
+What are Routers?
+
+    The router is a network device that connects two or more network segments.
+    It is used to transfer information from the source to the destination.
+
+What is the OSI reference model?
+
+    Open System Interconnection, the name itself suggests that it is a reference model that
+    defines how applications can communicate with each other over a networking system.
+
+types of protocals?
+    There are various types of protocols that support a major and compassionate role in communicating 
+    with different devices across the network. These are:
+        Transmission Control Protocol (TCP)
+        Internet Protocol (IP)
+        User Datagram Protocol (UDP)
+        Post office Protocol (POP)
+        Simple mail transport Protocol (SMTP)
+        File Transfer Protocol (FTP)
+        Hyper Text Transfer Protocol (HTTP)
+        Hyper Text Transfer Protocol Secure (HTTPS)
+
+What does TCP/IP stand for?
+    TCP/IP stands for Transmission Control Protocol/Internet Protocol. TCP/IP is a set of standardized rules 
+    that allow computers to communicate on a network such as the internet
+    ->Application Layer:
+    ->Transport Layer:
+    ->Network or Internet Layer:
+    ->Network Interface Layer:
+
+What is HTTP?
+
+    HTTP is HyperText Transfer Protocol and it is responsible for web content. 
+    Many web pages are using HTTP to transmit the web content and allow the display 
+    and navigation of HyperText
+    TCP port 80.
+
+What is HTTPs and what port does it use?
+
+    HTTPs is a Secure HTTP. HTTPs is used for secure communication over a computer network.
+    HTTPs use TCP with port 443.
+
+What is a Firewall?
+
+    Firewall is a network security system that is used
+    to protect computer networks from unauthorized access.
+
+What is DNS?
+
+    Domain Name Server (DNS), 
+    in a non-professional language and we can call it an Internet’s phone book.
+    All the public IP addresses and their hostnames are stored in the DNS and 
+    later it translates into a corresponding IP address.
+    eg.machine language(wwww. .com) – IP address
+
+What is meant by 127.0.0.1 and localhost?
+
+    IP address 127.0.0.1, is reserved for loopback or localhost connections.
+    These networks are usually reserved for the biggest customers or some of the original members of 
+    the Internet.
+
+OS security
+    Security refers to providing a protection system to computer system resources such as CPU, memory, disk, 
+    software programs and most importantly data/information stored in the computer system.
+
+File system
+    A file is a named collection of related information that is recorded on secondary 
+    storage such as magnetic disks, magnetic tapes and optical disks
+
+What is SNMP?
+
+    SNMP stands for Simple Network Management Protocol. It is a network protocol used for 
+    collecting organizing and exchanging information between network devices.
+
+What are the different types of a network? 
+
+    Personal Area Network (PAN): It is the smallest and basic network type that is often used at home. 
+                connection between the computer and another device such as phone, printer, modem tablets
+    Local Area Network (LAN): LAN is used in small offices and Internet cafes to connect a 
+                                small group of computers to each other. Usually,
+                                they are used to transfer a file or for playing the game in a network.
+    Metropolitan Area Network (MAN): It is a powerful network type than LAN. 
+                                    The area covered by MAN is a small town, city, etc. 
+                                    A huge server is used to cover such a large span of area for connection.
+    Wide Area Network (WAN): It is more complex than LAN and covers a large span of 
+                            the area typically a large physical distance.
+                            The Internet is the largest WAN which is spread across the world. 
+
+Describe the layers of the OSI model?
+
+    OSI model stands for Open System Interconnection It is a framework that guides the applications
+    on how they can communicate in a network.
+
+    OSI model has seven layers. They are listed below,
+
+    Physical Layer: Deals with transmission and reception of unstructured data through a physical medium.
+    Data Link Layer: Helps in transferring error-free data frames between nodes.
+    Network Layer: Decides the physical path that should be taken by the data as per the network conditions.
+    Transport Layer: Ensures that the messages are delivered in sequence and without any loss or duplication.
+    Session Layer: Helps in establishing a session between processes of different stations.
+    Presentation Layer: Formats the data as per the need and presents the same to the Application layer.
+    Application Layer: Serves as the mediator between Users and processes of applications.
+
+What is the full form of ASCII?
+
+    ASCII stands for American Standard Code for Information Interchange.
+
+Define Static IP and Dynamic IP?
+
+    a device or computer is assigned a specified IP address then it is named as Static IP. 
+    It is assigned by the Internet Service Provider as a permanent address.
+
+    Dynamic IP is the temporary IP address assigned by the network to a computing device. 
+    Dynamic IP is automatically assigned by the server to the network device.
+
+why use antivirus?
+    Antivirus is a software program that protects a computer from any malicious software, any virus,
+    spyware, adware, etc.
+
+    Note: A Firewall cannot protect the system from viruses, spyware, adware, etc.
+
+Define IEEE in the networking world?
+
+    IEEE stands for the Institute of Electrical and Electronic Engineer. 
+    This is used to design or develop standards that are used for networking.
+
+What is the use of encryption and decryption?
+
+    Encryption is the process of converting the transmission data into another form
+    that is not read by any other device other than the intended receiver.
+
+    Decryption is the process of converting back the encrypted data to its normal form. 
+    An algorithm called cipher is used in this conversion process.
+
+Brief Ethernet?
+
+    Ethernet is a technology that is used to connect computers all over the network 
+    to transmit the data between each other.
+    eg.connect a computer and laptop to a printer, then we can call it as an Ethernet network.
+
+    The main difference between the Internet and Ethernet is security. 
+    Ethernet is safer than the Internet as Ethernet is a closed-loop and has only limited access.
+
+What is an Encoder?
+
+    Encoder is a circuit that uses an algorithm to convert any data or compress audio data or 
+    video data for transmission purposes. An encoder converts the analog signal into the digital signal.
+
+
+ What is a Decoder?
+
+    Decoder is a circuit that converts the encoded data to its actual format. 
+    It converts the digital signal into an analog signal.
+
+Describe the key elements of the protocol?
+
+    Syntax: It is the format of the data. That means in which order the data is displayed.
+    Semantics: Describes the meaning of the bits in each section.
+    Timing: At what time the data is to be sent and how fast it is to be sent.
+
+Expand SLIP?
+
+    SLIP stands for Serial Line Interface Protocol. 
+    SLIP is a protocol used for transmitting IP datagrams over a serial line.
+
+What is the full form of IDEA?
+
+     IDEA stands for International Data Encryption Algorithm
+
+
+
+
+
+
+
+
+     

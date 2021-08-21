@@ -1,0 +1,51 @@
+ it is a process used to identify the correctness , completeness and quality to develop computer software
+
+ its the process of executing a program/application under positive and negative conditions 
+ by manual or automated means it checks
+    ->specification
+    ->functionality
+    ->performance
+
+error:  its a human action that produces the incorrect result that produces a functionality
+
+bug: the presence of error at the time of execution of the software
+
+fault: state of software caused by an error
+
+failure: deviation of  the software from its expected result its an events
+
+                    TESTING METHOLOGY
+
+BLACKBOX TESTING:no knowledge of internal program design or code required
+                    tests are based on requirements and functionality
+
+WHITEBOX TESTING: knowledge of the internal program design and code required
+                    test are based on coverage of code statement,branches , paths and conditions
+
+
+                    TESTING level
+
+unit testing:   tests each modules individually , follow a white box testing(logic of the program) 
+                done by developers
+
+integration testing:    once all the modules have been unit tested , integration testing is performed
+                        its systematic testing , produces test to identify errors associate with interfacing 
+                        types: big bang integration testing top dowm integration testing button up integration testing
+
+system testing: the system as a whole is tested to uncover requirment errors ,
+ verifies that all system elements work properly and that overall system function and performance has 
+ been achieved , types: alpha testing , beta testing , acceptance testing , performance testing
+
+                TYPES IF PERFORMANCE TESTING
+
+> stress testing
+>volume ""
+>configuration""
+>compactability""
+>regression""
+>recovery""
+>maintenance""
+>documentation
+>testing usability testing
+
+

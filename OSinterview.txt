@@ -1,0 +1,139 @@
+1) What is an operating system?
+    The operating system is a software program that facilitates computer hardware to communicate 
+    and operate with the computer software.
+
+2) What is an API with example?
+    
+    API is the stands for Application Programming Interface,
+    which is a software intermediary that allows two applications to talk to each other.
+    Each time you use an app like Facebook, send an instant message,
+    or check the weather on your phone, you're using an API.
+
+3)What is GUI explain?
+
+    A graphical user interface (GUI) is a type of user interface through which users interact 
+    with electronic devices via visual indicator representations 
+
+4)What is the main purpose of an operating system?
+    There are two main purposes of an operating system:
+
+    It is designed to make sure that a computer system performs well by managing its computational activities.
+    It provides an environment for the development and execution of programs.
+
+5) What are the different operating systems?
+    Batched operating systems
+    Distributed operating systems
+    Timesharing operating systems
+    Multi-programmed operating systems
+    Real-time operating systems
+
+6) What is a socket?
+    A socket is used to make connection between two applications.
+    Endpoints of the connection are called socket.
+
+7) What is kernel?
+    Kernel is the core and most important part of a computer operating system 
+    which provides basic services for all parts of the OS.
+
+8) What is a real-time system?
+    Real-time system is used in the case when rigid-time requirements 
+    have been placed on the operation of a processor.
+    It contains a well defined and fixed time constraints.
+
+9) What do you mean by a process?
+    An executing program is known as process. There are two types of processes:
+
+    Operating System Processes
+    User Processes
+
+10)What are the different states of a process?
+    A list of different states of process:
+
+    New Process
+    Running Process
+    Waiting Process
+    Ready Process
+    Terminated Process
+
+11) What is the difference between micro kernel and macro kernel?
+    ->Micro kernel: micro kernel is the kernel which runs minimal performance affecting services 
+    for operating system. In micro kernel operating system all other operations are performed by processor.
+
+    ->Macro Kernel: Macro Kernel is a combination of micro and monolithic kernel.
+
+12) What is the difference between process and program?
+    A program while running or executing is known as a process.
+
+13) What is the use of paging in operating system?
+    Paging is used to solve the external fragmentation problem in operating system. 
+    This technique ensures that the data you need is available as quickly as possible.
+
+14) What is the concept of demand paging?
+    Demand paging specifies that if an area of memory is not currently being used,
+    it is swapped to disk to make room for an application's need.
+
+15) What is the advantage of a multiprocessor system?
+    As many as processors are increased, you will get the considerable increment in throughput. 
+    It is cost effective also because they can share resources. So, the overall reliability increases.
+
+16) What is virtual memory?
+        A computer can address more memory than the amount physically installed on the system.
+        This extra memory is actually called virtual memory 
+        it is a section of a hard disk that's set up to emulate the computer's RAM.
+
+17) What is a thread?
+    A thread is a basic unit of CPU utilization. It consists of a thread ID, program counter, 
+    register set and a stack.
+
+18) What is FCFS?
+    FCFS stands for First Come, First Served. It is a type of scheduling algorithm. 
+    In this scheme, if a process requests the CPU first, it is allocated to the CPU first.
+    Its implementation is managed by a FIFO queue.
+
+19) What is SMP?
+    SMP stands for Symmetric MultiProcessing. It is the most common type of multiple processor system. 
+    In SMP, each processor runs an identical copy of the operating system,
+    and these copies communicate with one another when required.
+
+20) What is deadlock? Explain.
+    Deadlock is a specific situation or condition where two processes are waiting for each other 
+    to complete so that they can start.
+    But this situation causes hang for both of them.
+
+21)What is the difference between internal commands and external commands?
+    Internal commands are the built-in part of the operating system while external commands are 
+    the separate file programs that are stored in a separate folder or directory.
+
+22) What are the advantages of multithreaded programming?
+    A list of advantages of multithreaded programming:
+
+    Enhance the responsiveness to the users.
+    Resource sharing within the process.
+    Economical
+    Completely utilize the multiprocessing architecture.
+
+23) What are overlays?
+    Overlays makes a process to be larger than the amount of memory allocated to it. 
+    It ensures that only important instructions and data at any given time are kept in memory.
+
+24)what is multithreading?
+    Multithreading is the ability of a program or an operating system process to manage 
+    its use by more than one user at a time and to even manage multiple requests by 
+    the same user without having to have multiple copies of the programming running in the computer.
+
+
+26) what is software?
+    Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
+    It is the opposite of hardware, which describes the physical aspects of a computer.
+
+
+
+
+
+
+
+
+
+
+
+

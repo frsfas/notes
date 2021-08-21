@@ -1,0 +1,134 @@
+                    .NET framework
+
+
+->it is a software framework include everything required for developing software for web services
+
+what is framework?
+    Presentation technology
+    components technology
+    data technology
+    It supports running websites, services, desktop apps, and more on Windows.
+    ->a framework may include predefined classes and functions that can be used to process input, 
+    manage hardware devices, and interact with system software.
+
+definition?
+    .net framework provides an environment for building , deploying and running web services
+
+CLR?(common language runtime)
+    ->loading and running c# programs
+    ->heart and soul of .net framework
+    ->its also support gross language interrability
+
+types of service in CLR?
+    ->loading and running
+    ->memory isolation
+    ->verification of types of safety
+    ->complication of intermediate language to native language
+    ->memory management
+    ->enfourcement of security
+    ->support of debugging and profiling
+
+components of CLR?
+    ->CTS(common types system)
+    ->CLS(common language specification)
+
+what is c#?
+    C# is a new programming language was develop by microsoft
+    everything really is an object
+    simplified version of C++
+    the first component oriented language in c/C++
+    native language of the .net framework
+
+SQL CONNECTION CON= NEW SQL CONNECTION("DB LINK",)
+CON.OPEN();
+SQL COMMAND=NEW SQL COMMAND(INSERT , UPDATE , DELETE, VIEW",CON)
+CMD.EXECUTE NONQUERY()
+CMD.DISPOSE();
+CON.CLOSE()
+
+back to page=> RESPONSE.REDIRECT("file.aspx");
+
+LOGIN:
+
+sqlconnection con=new sqlconnectiom()
+con.open();
+sql command cmd= new sql command("select id,pwd from user where id='"+tb1.txt+"' and pwd='"+tb2.txt+"',con);
+cmd.executenonquery();
+SQLdataadapter DA=new SQLdataadapter(cmd);
+datatable DT=new datatable();
+DA.fill(DT);
+if(DA.rows.count>0)
+{
+    stringscript="alert("login success");";
+    client script.register client script block(this.gettype(),"alert",script,true);
+    response.redirect();
+}
+elseif{}
+elseif{}
+else{}
+
+GRID VIEW;
+
+gridview1.datasource=cmd.execute reader();
+gridview.databind();
+con.close();
+
+AD ROTATOR:
+
+<advertisements><ad><imageurl>url link</imgaurl>
+<alternate text>text something</.>
+<navigation url>link</>
+</ad>
+</advertisements>
+
+STORE PROCEDURE:
+
+create procedure pname
+@id int,@name varchar(50)....
+as begin
+insert into emp values(@id,@name,@age..)
+end
+
+sqlconnectiom
+string name=tb2.txt;
+int age=convert.toint32(tb3.txt);
+sqlcommand cmd=new sql command("pname",con);
+cmd.commandtype=system.data.commandtype.stored procedure;
+cmd.parameters.addwithvalue("@name",name);
+.....
+con.close();
+
+HEADER:
+
+using system.data;
+using system.data.sqlexpress;
+using system.io;
+
+
+console application(c#)->type project name->create
+
+solution explore
+
+There are six types of validation controls in ASP.NET
+    RequiredFieldValidation Control
+    CompareValidator Control
+    RangeValidator Control
+    RegularExpressionV alidator Control
+    CustomValidator Control
+    ValidationSummary
+
+ms application?
+    Presentation
+    development/application
+    database
+    OS
+    it is an universal platform world
+
+.net building blocks?
+    CLR  common language runtime 
+    CTS   common type system  
+    CLS     common language specification
+
+c# -> c# compiler -> ms intermediate language -> CLS(JIT) -> native code -> run on OS
+
+project -> data -> library -> run -> execute OS
