@@ -1,7 +1,7 @@
- it is a process used to identify the correctness , completeness and quality to develop computer software
+it is a process used to identify the correctness , completeness and quality to develop computer software
 
- its the process of executing a program/application under positive and negative conditions 
- by manual or automated means it checks
+its the process of executing a program/application under positive and negative conditions 
+by manual or automated means it checks
     ->specification
     ->functionality
     ->performance
